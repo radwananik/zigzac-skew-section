@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Change the white to any color ;) */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.top-navbar {
+    margin-bottom: 50px;
+}
+
+.section-padding {
+    position: relative;
+}
+.section-padding{
+     background-position: center;
+    background-size: cover;
+}
+.zigzac-curve-bg-1 {
+    background-image: url(../img/banner.jpg);
+  
+}
+
+.zigzac-curve-bg-2 {
+    background-image: url(../img/background-desktop.jpg);
+   
+}
+.inner-text{
+    position: relative;
+    z-index: 2;
+    padding-right: 50px;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.inner-text:after{
+    content: '';
+    top: 0;
+    left: -4900%;
+    height: 100%;
+    width: 5000%;
+    position: absolute;
+    background-color: #19a15f;
+    z-index: -1;
+    transform: skew(10deg);
+    opacity: .8;
+    
+}
+
+.zigzac-curve-bg-2 
+.inner-text:after{
+    left: auto;
+    right: -4900%;
+    
+}
+.zigzac-curve-bg-2 
+.inner-text{
+    padding-left: 50px;
+    padding-right: 0;
+}
+.section-padding.zigzac-curve-bg-2{
+    overflow: hidden;
+}
+.boxed-btn{
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
